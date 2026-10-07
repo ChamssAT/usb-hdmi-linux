@@ -1,0 +1,18 @@
+# Artefacts de compilation noyau (pilote DKMS)
+*.o
+*.ko
+*.mod
+*.mod.c
+*.o.d
+.*.cmd
+.tmp*
+Module.symvers
+modules.order
+module-common.o
+*.dwo
+*.a
+
+# Éditeurs / système
+*~
+.swp
+.DS_Store
