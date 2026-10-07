@@ -33,7 +33,7 @@ lsusb | grep -iE "345f|534d"
 |---|---|---|
 | `345f:9132`, `345f:9133`, `345f:9135` | « MS USB Video » | ✅ oui |
 | `534d:6021` | « MacroSilicon USB Video » | ✅ oui — c'est le même adaptateur, juste renommé après branchement |
-| autre chose | — | ❌ ce dépôt n'est pas fait pour votre matériel |
+
 
 Pour les adaptateurs **USB → VGA** (puce MS912C), ça marche aussi, mais il faut
 deux options de module supplémentaires : tout est expliqué dans
