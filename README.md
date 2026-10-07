@@ -268,3 +268,19 @@ sudo reboot
 **En résumé** : `lsusb` confirme votre adaptateur → `./installer-msdisp.sh` →
 `./miroir-ecran.sh etendu` → `./maintien-mode.sh demarrer etendu` → profitez de
 votre deuxième écran.
+
+## Captures d'écran
+
+Voici quelques captures d'écran pour illustrer l'installation et l'utilisation de cet adaptateur sous Linux.
+
+![Installation réussie](assets/images/01-installation-reussie.png)
+
+*Installation et chargement des modules réussis : `card1` apparaît bien dans `/dev/dri/`.*
+
+![Détection HDMI](assets/images/02-hdmi-connecte.png)
+
+*L'adaptateur USB-HDMI est correctement détecté par `xrandr` après branchement de l'écran.*
+
+![Sélection du mode d'affichage](assets/images/03-selection-mode.png)
+
+*Interface graphique Zenity permettant de choisir entre mode étendu, miroir ou arrêt de l'écran externe.*
